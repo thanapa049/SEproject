@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "712034632068",
+    "firebase_url": "https://plearntest-4290c.firebaseio.com",
+    "project_id": "plearntest-4290c",
+    "storage_bucket": "plearntest-4290c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712034632068:android:cdf5c6c46a597a65",
+        "android_client_info": {
+          "package_name": "com.example.plern.addnotice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712034632068-tcip9gi051tko2f30o6ghk8b42bqsbgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSI09tZHmt2sbxNNemk1XPPU3JynSoTnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
