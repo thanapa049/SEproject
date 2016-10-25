@@ -88,10 +88,10 @@ public class AddNotice extends AppCompatActivity {
 //        photo
 
         Place place = new Place(placeName.getText().toString(), placeAddress.getText().toString(),
-                placeLocation.getText().toString(), placeTel.getText().toString(),
+                (Double.parseDouble(placeLocation.getText().toString())), placeTel.getText().toString(),
                 placeDetail.getText().toString(), placeWebsite.getText().toString(),
                 placeFacebook.getText().toString(), placeLine.getText().toString(),
-                placeIg.getText().toString(), placePrice.getText().toString(),
+                placeIg.getText().toString(), (Double.parseDouble(placePrice.getText().toString())),
                 checkWorkday());
 
 

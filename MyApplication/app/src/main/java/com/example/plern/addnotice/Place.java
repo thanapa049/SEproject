@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class Place {
     private int placeId;
     private String placeName;
-    private String placeLocation;
+    private Double placeLocation;
     private String placeAddress;
     private String placeTel;
     private String placeDetail;
@@ -20,14 +20,14 @@ public class Place {
     private String placeLine;
     private String placeIg;
     private int placeStarAvg;
-    private String placePrice;
+    private Double placePrice;
     private int reviewerAmount;
     private String placeWorkDay;
     private ArrayList<Image> placePhoto;
 
-    public Place(String placeName, String placeAddress, String placeLocation, String placeTel,
+    public Place(String placeName, String placeAddress, Double placeLocation, String placeTel,
                  String placeDetail, String placeWebsite, String placeFacebook, String placeLine,
-                 String placeIg, String placePrice, String placeWorkDay){
+                 String placeIg, Double placePrice, String placeWorkDay){
         this.placeName = placeName;
         this.placeAddress = placeAddress;
         this.placeLocation = placeLocation;
@@ -58,11 +58,11 @@ public class Place {
         this.placeName = placeName;
     }
 
-    public String getPlaceLocation() {
+    public Double getPlaceLocation() {
         return placeLocation;
     }
 
-    public void setPlaceLocation(String placeLocation) {
+    public void setPlaceLocation(Double placeLocation) {
         this.placeLocation = placeLocation;
     }
 
@@ -82,11 +82,11 @@ public class Place {
         this.placeWorkDay = placeWorkDay;
     }
 
-    public String getPlacePrice() {
+    public Double getPlacePrice() {
         return placePrice;
     }
 
-    public void setPlacePrice(String placePrice) {
+    public void setPlacePrice(Double placePrice) {
         this.placePrice = placePrice;
     }
 
